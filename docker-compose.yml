@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dockerwdio:
+    image: dockerwdio
+    build:
+      context: .
+      dockerfile: ./Dockerfile
